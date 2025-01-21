@@ -1,0 +1,96 @@
+.log-workout-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .log-workout-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .log-workout-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .log-workout-form select,
+  .log-workout-form input {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .log-workout-form select:focus,
+  .log-workout-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .log-workout-form select {
+    cursor: pointer;
+  }
+  
+  .log-workout-form button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .log-workout-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-button {
+    margin-top: 1.5rem;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    color: #0056b3;
+  }
+  
+  .no-workouts-message {
+    text-align: center;
+    color: #ff6347;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .create-workout-button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .create-workout-button:hover {
+    background-color: #218838;
+  }
+  

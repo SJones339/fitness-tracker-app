@@ -1,0 +1,43 @@
+.log-food-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .search-section {
+    margin-bottom: 20px;
+  }
+  
+  .search-section input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .search-section button {
+    padding: 10px 20px;
+  }
+  
+  .food-preview {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .food-preview p {
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

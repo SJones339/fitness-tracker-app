@@ -1,0 +1,38 @@
+.dashboard-page {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .date-picker {
+    margin-bottom: 2rem;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  
+  .log-details {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .log-section {
+    margin-top: 1rem;
+  }
+  
+  .log-summary {
+    margin-top: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  

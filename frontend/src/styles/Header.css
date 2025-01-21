@@ -1,0 +1,33 @@
+.headerStyle {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoStyle {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navListStyle {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .linkStyle {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .linkStyle:hover {
+    text-decoration: underline;
+  }
+  
