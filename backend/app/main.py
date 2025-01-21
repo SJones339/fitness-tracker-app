@@ -271,6 +271,3 @@ def get_daily_log(date: str, db: Session = Depends(get_db)):
 
 #to run, cd to backend and run uvicorn app.main:app --reload. If want to reset 
 # database, just run database.py
-
-
-##COMMIT TO GITHUB BEFORE MAKING MORE CHANGES
